@@ -2,6 +2,7 @@
   "name": "wechat-app",
   "version": "1.0.0",
   "description": "A minimal WeChat application",
+  "repository": "https://github.com/fuyb/wechat-app.git",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
