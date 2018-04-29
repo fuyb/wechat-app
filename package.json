@@ -1,0 +1,25 @@
+{
+  "name": "wechat-app",
+  "version": "1.0.0",
+  "description": "A minimal WeChat application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-linux-x64": "./node_modules/.bin/electron-packager . wechat-app --overwrite --platform=linux --arch=x64 --ignore=./realease-builds --ignore=./node_modules/electron-packager --ignore=./node_modules/electron-osx-sign/",
+    "build-linux-ia32": "./node_modules/.bin/electron-packager . wechat-app --overwrite --platform=linux --arch=ia32 --ignore=./realease-builds --ignore=./node_modules/electron-packager --ignore=./node_modules/electron-osx-sign/"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "fuyb",
+  "devDependencies": {
+    "electron": "~1.7.8"
+  },
+  "dependencies": {
+    "electron-packager": "^10.1.1"
+  }
+}

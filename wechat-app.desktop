@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=WeChat
+Version=1.0.0
+Name[zh_CN]=微信
+Name[zh_HK]=微信
+Name[zh_TW]=微信
+Comment=WeChat
+Comment[zh_CN]=微信
+Comment[zh_HK]=微信
+Comment[zh_TW]=微信
+TryExec=/usr/local/bin/wechat-app-linux-x64/wechat-app
+Exec=/usr/local/bin/wechat-app-linux-x64/wechat-app %U
+Icon=wechat
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;GNOME;GTK;
+MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/x-bmp;image/x-gray;image/x-icb;image/x-ico;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-xbitmap;image/x-xpixmap;image/x-pcx;image/svg+xml;image/svg+xml-compressed;image/vnd.wap.wbmp;x-scheme-handler/wechat;
+# Extra keywords that can be used to search for eog in GNOME Shell and Unity
+Keywords=WeChat;Intenet;Chat;
+Keywords[zh_CN]=微信;
+Keywords[zh_HK]=微信;
+Keywords[zh_TW]=微信;
