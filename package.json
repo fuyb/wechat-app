@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build-linux-x64": "./node_modules/.bin/electron-packager . wechat-app --overwrite --platform=linux --arch=x64 --ignore=./realease-builds --ignore=./node_modules/electron-packager --ignore=./node_modules/electron-osx-sign/",
-    "build-linux-ia32": "./node_modules/.bin/electron-packager . wechat-app --overwrite --platform=linux --arch=ia32 --ignore=./realease-builds --ignore=./node_modules/electron-packager --ignore=./node_modules/electron-osx-sign/"
+    "build-linux-x64": "./node_modules/.bin/electron-packager . wechat-app --overwrite --no-prune --platform=linux --arch=x64 --ignore=./realease-builds --ignore=./node_modules/electron-packager --ignore=./node_modules/electron-osx-sign/",
+    "build-linux-ia32": "./node_modules/.bin/electron-packager . wechat-app --overwrite --no-prune --platform=linux --arch=ia32 --ignore=./realease-builds --ignore=./node_modules/electron-packager --ignore=./node_modules/electron-osx-sign/"
   },
   "keywords": [
     "Electron",
